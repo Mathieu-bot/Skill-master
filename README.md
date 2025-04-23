@@ -1,4 +1,4 @@
-# RealHack - AI Image Analysis Platform
+# Skill Master - AI Image Analysis Platform
 
 RealHack is a modern web application that uses artificial intelligence to analyze images. It offers advanced features such as text detection, image quality analysis, and dominant color extraction.
 
