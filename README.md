@@ -58,32 +58,32 @@ PORT=5000
 # Frontend (si nécessaire)
 VITE_API_URL=http://localhost:5000
 ```
-##Usage
+### Usage
 
 1. Start the backend and frontend
 2. Create a user account
 3. Log in
 4. Start analyzing your images!
 
-##Technologies Used
+### Technologies Used
 
---Frontend
+-- Frontend
 
--React
--Vite
--TailwindCSS
--Axios
+- React
+- Vite
+- TailwindCSS
+- Axios
 
---Backend
+-- Backend
 
--Node.js
--Express
--Sequelize
--PostgreSQL
--Tesseract.js
--Sharp
+- Node.js
+- Express
+- Sequelize
+- PostgreSQL
+- Tesseract.js
+- Sharp
 
-##Contribution
+## Contribution
 
 Contributions are welcome! Feel free to open an issue or submit a pull request.
 
