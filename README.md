@@ -1,38 +1,38 @@
-# RealHack - Plateforme d'Analyse d'Images par IA
+# RealHack - AI Image Analysis Platform
 
-RealHack est une application web moderne qui utilise l'intelligence artificielle pour analyser des images. Elle offre des fonctionnalités avancées comme la détection de texte, l'analyse de la qualité d'image et l'extraction des couleurs dominantes.
+RealHack is a modern web application that uses artificial intelligence to analyze images. It offers advanced features such as text detection, image quality analysis, and dominant color extraction.
 
-## Fonctionnalités
+## Features
 
-- **Analyse d'images**
-  - Détection de texte (OCR) en français et anglais
-  - Analyse de la qualité d'image
-  - Extraction des couleurs dominantes
-  - Métadonnées détaillées
+- **Image Analysis**
+  - Text detection (OCR) in French and English
+  - Image quality analysis
+  - Dominant color extraction
+  - Detailed metadata
 
-- **Gestion des utilisateurs**
-  - Inscription et connexion
-  - Réinitialisation de mot de passe
-  - Tableau de bord personnalisé
+- **User Management**
+  - Registration and login
+  - Password reset
+  - Personalized dashboard
 
-- **Interface moderne**
-  - Design responsive
-  - Mode sombre/clair
-  - Interface utilisateur intuitive
+- **Modern Interface**
+  - Responsive design
+  - Dark/Light mode
+  - Intuitive user interface
 
 ## Installation
 
-### Prérequis
+### Prerequisites
 
-- Node.js (v14 ou supérieur)
+- Node.js (v14 or higher)
 - PostgreSQL
-- npm ou yarn
+- npm or yarn
 
 ### Backend
 
 ```bash
 cd backend
-cp .env.example .env  # Créez et configurez votre fichier .env
+cp .env.example .env  # Create and configure your .env file
 npm install
 npm run dev
 ```
@@ -46,8 +46,8 @@ npm run dev
 
 ## Configuration
 
-1. Créez une base de données PostgreSQL
-2. Configurez les variables d'environnement dans le fichier `.env` :
+1. Create a PostgreSQL database
+2. Configure the environment variables in the `.env` file::
 
 ```env
 # Backend
@@ -58,33 +58,34 @@ PORT=5000
 # Frontend (si nécessaire)
 VITE_API_URL=http://localhost:5000
 ```
+##Usage
 
-## Utilisation
+1. Start the backend and frontend
+2. Create a user account
+3. Log in
+4. Start analyzing your images!
 
-1. Lancez le backend et le frontend
-2. Créez un compte utilisateur
-3. Connectez-vous
-4. Commencez à analyser vos images !
+##Technologies Used
 
-## Technologies utilisées
+--Frontend
 
-- **Frontend**
-  - React
-  - Vite
-  - TailwindCSS
-  - Axios
+-React
+-Vite
+-TailwindCSS
+-Axios
 
-- **Backend**
-  - Node.js
-  - Express
-  - Sequelize
-  - PostgreSQL
-  - Tesseract.js
-  - Sharp
+--Backend
 
-## Contribution
+-Node.js
+-Express
+-Sequelize
+-PostgreSQL
+-Tesseract.js
+-Sharp
 
-Les contributions sont les bienvenues ! N'hésitez pas à ouvrir une issue ou à soumettre une pull request.
+##Contribution
+
+Contributions are welcome! Feel free to open an issue or submit a pull request.
 
 ## Licence
 
